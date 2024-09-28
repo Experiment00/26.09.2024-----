@@ -1,0 +1,43 @@
+.reports h2 {
+    width: calc(328px + (838 - 328) * ((100vw - 376px) / (1280 - 375)));
+}
+.comments {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: calc(2.2vw + 11.7px) 0;
+
+}
+.comment {
+    width: calc(328px + (335 - 328) * ((100vw - 376px) / (1280 - 375)));
+    background-color: #F0F7FD;
+    border-radius: 12px;
+    padding: 50px 20px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.commentText img {
+    width: 38px;
+    height: 38px;
+}
+.tehacseng {
+    display: flex;
+    flex-direction:row;
+}
+.tehacseng img {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
+.tehacsengInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+.tehacsengName {
+    font-size: 18px;
+    line-height: 150%;
+}
